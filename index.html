@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>George's Computer</title>
+  <meta charset="UTF-8" />
+
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body style = 'color: white;'>
+  <?php
+  echo strip_tags("html");
+  ?>
+  <!-- greeting and time -->
+  <div class="date" id="date">
+    <p class="greeting" id="greeting">
+      Good Afternoon
+    </p>
+    <p class="time" id="time">
+      12:00 PM
+    </p>
+  </div>
+
+  <div class='hotbar' id='hotbar'>
+    <button onclick="OnClick('Tasks')" , class='hotbarIcon', name="1">
+      <img src="./images/None_Icon.png" class='hotbarIconThumbnail'>
+    </button>
+    <button onclick="OnClick('HfBlog')" , class='hotbarIcon', name="2">
+      <img src="./images/None_Icon.png" class='hotbarIconThumbnail'>
+    </button>
+    <button class='hotbarIcon', name="3">
+      <img src="./images/Settings_Icon.png" class='hotbarIconThumbnail'> <
+    </button>
+  </div>
+
+</body>
+<script src="index.js"></script>
+<script>
+
+  
+</script>
+
+</html>
